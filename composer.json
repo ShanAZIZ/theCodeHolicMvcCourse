@@ -1,0 +1,9 @@
+{
+    "name": "shan/mvc-free-code-camp",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
