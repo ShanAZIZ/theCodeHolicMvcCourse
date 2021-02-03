@@ -24,6 +24,7 @@ abstract class Model
 
     public array $errors = [];
 
+    //Complexite trop elever pour la maintenabilité
     public function validate() 
     {
         foreach ($this->rules() as $attribute => $rules) {
@@ -71,6 +72,16 @@ abstract class Model
             self::RULE_MAX => 'Max length of this field must be {max}',
             self::RULE_MATCH => 'this field must be the same as {match}',
         ];
+    }
+
+    public function hasError($attribute)
+    {
+        return $this->errors[$attribute] ?? false; 
+    }
+
+    public function getFirstError($attribute)
+    {
+        return $this->errors[$attribute][0] ?? false; 
     }
 
 }
