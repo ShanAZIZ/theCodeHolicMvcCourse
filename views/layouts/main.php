@@ -40,7 +40,12 @@
 		</div>
 	</nav>
 
-    <div class="container">
+    <div class="container">	
+		<?php if(\app\core\Application::$app->session->getFlash('success')) :  ?>
+		<div class="alert alert-success">
+			 <?php echo app\core\Application::$app->session->getFlash('success') ?>
+		</div>
+		<?php endif; ?>
         {{ content }}
     </div>
 	
