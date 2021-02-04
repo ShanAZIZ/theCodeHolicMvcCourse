@@ -1,10 +1,13 @@
 <?php
 
 namespace app\core;
-
 class Router
 {
-
+    /*
+     * Class Router
+     * Cette classe permet, depuis une URL, de retrouver le controlleur correspondant et charger la vue
+     * Utilise les Classes Request et Response
+     */
     protected array $routes = [];
     public Request $resquest;
     public Response $response;
