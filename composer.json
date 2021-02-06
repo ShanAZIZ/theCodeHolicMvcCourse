@@ -7,6 +7,6 @@
     },
     "require": {
         "vlucas/phpdotenv": "^5.3",
-        "shan-aziz/php-mvc-core": "^1.0.1"
+        "shan-aziz/php-mvc-core": "^1.0"
     }
 }
