@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
+use shan\mvcPhpCore\Application;
+use shan\mvcPhpCore\Controller;
+use shan\mvcPhpCore\Request;
+use shan\mvcPhpCore\Response;
 use app\models\ContactForm;
 
 class SiteController extends Controller

@@ -4,7 +4,7 @@
 namespace app\models;
 
 
-class ContactForm extends \app\core\Model
+class ContactForm extends \shan\mvcPhpCore\Model
 {
     public string $subject = '';
     public string $email = '';

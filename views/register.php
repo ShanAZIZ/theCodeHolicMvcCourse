@@ -4,7 +4,7 @@
 
 <h1>Register</h1>
 
-<?php $form = \app\core\form\Form::begin('', "post"); ?>
+<?php $form = \shan\mvcPhpCore\form\Form::begin('', "post"); ?>
     <div class="row">
         <div class="col"><?= $form->field($model, 'firstname') ?></div>
         <div class="col"><?= $form->field($model, 'lastname') ?></div>
@@ -13,4 +13,4 @@
     <?= $form->field($model, 'password')->passwordField() ?>
     <?= $form->field($model, 'confirmPassword')->passwordField() ?>
     <button type="submit" class="btn btn-primary">Submit</button>
-<?= \app\core\form\Form::end() ?>
+<?= \shan\mvcPhpCore\form\Form::end() ?>

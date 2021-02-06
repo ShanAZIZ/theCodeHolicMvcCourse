@@ -4,8 +4,8 @@
 namespace app\models;
 
 
-use app\core\Application;
-use app\core\Model;
+use shan\mvcPhpCore\Application;
+use shan\mvcPhpCore\Model;
 
 class LoginForm extends Model
 {

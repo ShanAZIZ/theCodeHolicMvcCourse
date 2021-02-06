@@ -1,5 +1,5 @@
 <?php
-use \app\core\Application;
+use \shan\mvcPhpCore\Application;
 ?>
 
 <!doctype html>

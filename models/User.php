@@ -1,7 +1,7 @@
 <?php
 namespace app\models;
-use app\core\DbModel;
-use app\core\form\UserModel;
+use shan\mvcPhpCore\DbModel;
+use shan\mvcPhpCore\form\UserModel;
 
 class User extends UserModel
 {

@@ -1,7 +1,7 @@
 <?php
 
 //on appelle les classes 
-use app\core\Application;
+use shan\mvcPhpCore\Application;
 use app\controllers\SiteController;
 use app\controllers\AuthController;
 

@@ -1,7 +1,7 @@
 <?php
-use \app\core\form\TextAreaField;
-use \app\core\form\Form;
-/** @var $this \app\core\View */
+use \shan\mvcPhpCore\form\TextAreaField;
+use \shan\mvcPhpCore\form\Form;
+/** @var $this \shan\mvcPhpCore\View */
 /** @var $model \app\models\ContactForms */
 $this->title = 'Contact';
 
